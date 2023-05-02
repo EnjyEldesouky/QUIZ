@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="css/file.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    </head>
+    <body>
+     
+        <div class="container w-25 shadow my-5 py-5 rounded bg-secondary-subtle text-dark bg-opacity-25 ">
+         <h3 style="text-align: center; color: rgb(131, 129, 129);">Simple Calculator</h3>
+        
+         <label><b>Enter First Number:</b></label>
+         <input id="num1" type="text=" class="form-control my-3 strong" placeholder="First Number">
+       
+         <label><b>Enter Second Number:</b></label>
+         <input id="num2" type="text" class="form-control my-3 "  placeholder="Second Number">
+ 
+
+           <button id="add" class="btn btn-primary my-3 " onclick="add()">Add</button>
+           <button id="sub"class="btn btn-warning my-3" onclick="sub()">Subtract</button>
+           <button id="clear"class="btn btn-danger my-3" onclick="clearnum()">Clear</button>
+          
+        
+         
+        
+       
+       <div class="result d-none" id="result">
+        
+       </div>
+    </div>
+        <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+        <script src="file.js"> </script>
+      
+    </body>
+</html>
